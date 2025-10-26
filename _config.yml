@@ -1,3 +1,41 @@
-theme: jekyll-theme-minimal
-title: Baidy's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: "Erzhizhi Hu"
+description: "Personal academic & project portfolio"
+lang: en
+timezone: Europe/London
+url: "https://yourusername.github.io"
+baseurl: ""   
+
+theme: null
+plugins:
+  - jekyll-seo-tag
+
+name: "Erzhizhi Hu"
+avatar: " "   
+bio: "A motivated robotics and AI researcher passionate about computer vision"
+
+skills:
+  - Python / PyTorch / Machine Learning
+  - Data Mining / 
+  - Unity / ROS2 / Robotics
+
+career_objectives: |
+ --
+projects:
+  - title: "p1"
+    description: "d1"
+    pdf: ""
+    video: ""
+    link: ""
+  - title: "p2"
+    description: "d2"
+    pdf: ""
+    video: ""
+    link: ""
+
+links:
+  github: ""
+  linkedin: ""
+  cv: ""
+
+
+footer: ""
