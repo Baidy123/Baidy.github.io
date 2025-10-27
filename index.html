@@ -354,6 +354,26 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+			document.addEventListener("DOMContentLoaded", function () {
+			// 重新初始化 poptrox，让它能显示 <a> 内完整内容
+			$('.gallery').poptrox({
+				selector: 'a.image.fit',
+				usePopupCaption: false,
+				usePopupNav: false,
+				overlayColor: '#000',
+				overlayOpacity: 0.75,
+				popupCloserText: '',
+				popupLoaderText: '',
+				usePopupDefaultStyling: false,
+				// 关键：允许显示自定义 HTML 内容
+				usePopupEasyClose: true,
+				popupSpeed: 200,
+				popupWidth: 600,
+				popupHeight: 400
+			});
+			});
+			</script>
 
 	</body>
 
