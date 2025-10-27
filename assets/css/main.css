@@ -2243,9 +2243,9 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("../../images/intro.gif");
+		background: url("images/overlay.png"), url("../../images/intro.gif");
 		background-size: 1920px 1080px, contain;
-		background-attachment: scroll, scroll;
+		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
