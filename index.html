@@ -182,26 +182,43 @@
 
 
 			<section id="two" class="main style2 left dark fullscreen">
-				<div class="content box style2">
+
+				<!-- 左边：稍小一点的白框 -->
+				<div class="content box style2" style="
+					width: 28%;
+					background: rgba(255,255,255,0.9);
+					color: #333;
+				">
 					<header>
 						<h2>Graduate Projects</h2>
 					</header>
-					<p>
+					<p style="font-size: 1em;">
 						This section presents my <strong>graduate projects</strong>, mainly focusing on 
 						<strong>robotics and artificial intelligence</strong>.  
-						More projects are currently in progress, stay tuned!
+						More projects are currently in progress — stay tuned for updates!
 					</p>
 				</div>
-				
-				<div class="content box style2" style="text-align:center;">
-					<h3 style="font-size:2em; margin-bottom:0.3em;">🚧 Content Under Construction 🚧</h3>
-					<p style="font-size:1.1em; color:#333;">
-						More exciting work will be added soon!
+
+				<!-- 右边：更大的“内容建设中”框 -->
+				<div class="content box style2" style="
+					position: absolute;
+					right: 8%;
+					top: 50%;
+					transform: translateY(-50%);
+					width: 45%;
+					text-align: center;
+					background: rgba(255,255,255,0.9);
+					color: #333;
+				">
+					<h3 style="font-size: 2em; margin-bottom: 0.5em;">🚧 Content Under Construction 🚧</h3>
+					<p style="font-size: 1.15em;">
+						More exciting work will be added soon — stay tuned!
 					</p>
 				</div>
 
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
+
 
 		<!-- Work -->
 			<section id="work" class="main style3 primary">
