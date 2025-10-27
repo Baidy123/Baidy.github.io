@@ -1825,39 +1825,6 @@ input, select, textarea {
 		}
 
 /* Header */
-	#header h1.with-avatar {
-		  position: absolute;
-		  left: 1em;
-		  top: 0;
-		  height: 3em;
-		  line-height: 3em;
-		  display: flex;
-		  align-items: center;
-		  gap: 8px;
-		  margin: 0;
-		}
-		
-		#header h1.with-avatar img.avatar-header {
-		  width: 32px;
-		  height: 32px;
-		  border-radius: 50%;
-		  border: 2px solid #fff;
-		  object-fit: cover;
-		}
-		
-		#header h1.with-avatar .name {
-		  font-size: 1.05em;
-		  font-weight: 400;
-		  letter-spacing: 0.4px;
-		  color: #333;
-		}
-		
-		#header h1.with-avatar .subtitle {
-		  font-size: 0.65em;
-		  font-weight: 300;
-		  color: #666;
-		  margin-left: 6px;
-		}
 	#header {
 		position: fixed;
 		z-index: 10000;
